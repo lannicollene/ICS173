@@ -27,7 +27,7 @@ sns.countplot(data=df,
               dodge=True)
 
 # save visualization as png
-plt.savefig("ICS173/visualization/communication_pref_by_age.png")
+##plt.savefig("ICS173/visualization/communication_pref_by_age.png")
 
 plt.show()
 
@@ -46,5 +46,5 @@ comm.set_titles("College: {col_name}")
 comm.set_axis_labels("Communication Preference", "Count")
 
 # save visualization as png
-plt.savefig("ICS173/visualization/communication_pref_by_gender_degree.png")
+##plt.savefig("ICS173/visualization/communication_pref_by_gender_degree.png")
 plt.show()
