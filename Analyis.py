@@ -11,6 +11,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_excel('data/Communication_Math115.xlxs')
+df = pd.read_excel('/Communication_Math115.xlxs')
 
 
